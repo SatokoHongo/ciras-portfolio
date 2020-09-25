@@ -1,0 +1,142 @@
+<DOCTYPE html>
+    <html lang="ja">
+
+    <head>
+        <meta charset="utf-8">
+        <title>blueBird</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Allura&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="site-width">
+                <img src="img/logo.png" id="logo-img">
+                <nav id="top-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#profile">Profile</a></li>
+                        <li><a href="#services">Service</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#company">Company</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div id="top-banner">
+            <p>
+                <img src="img/bird.jpg" id="top-img">
+            </p>
+            <h1 id="message">Change before you have to</h1>
+        </div>
+
+        <!-- Profile -->
+        <section id="profile" class="site-width">
+            <h2 class="title">Profile</h2>
+            <img src="img/ceo.jpg" id="ceo-img">
+            <div id="ceo-message">
+                <p>私たちブルーバードは<br>
+                    世の中に必要とされるサービスの提供に全力投球し、<br>
+                    世界のビジネスの成長をサポートします。</p>
+                <p>Nanka kakkoeekoto kakitaikedo
+                    eigo dekehennen.<br>
+                    Seyakedo kouyate kaitara
+                    eekanjini mieruyaro?<br>
+                    Souiuno daiziyato omoude.</p>
+                <br>
+                <p>株式会社ブルーバード CEO<span id="sign">Freddie May</span></p>
+            </div>
+        </section>
+
+        <!--  Services  -->
+        <section id="services" class="site-width">
+            <h2 class="title">Services</h2>
+            <div class="panel-area">
+                <section class="panel">
+                    <img src="img/pc.jpg" class="back-img">
+                    <div class="panel-text">
+                        <h3>システム開発</h3>
+                    </div>
+                </section>
+                <section class="panel">
+                    <img src="img/audit.jpg" class="back-img">
+                    <div class="panel-text">
+                        <h3>マーケティング事業</h3>
+                    </div>
+                </section>
+            </div>
+            <div class="panel-area">
+                <section class="panel">
+                    <img src="img/training.jpg" class="back-img">
+                    <div class="panel-text">
+                        <h3>エンジニア育成事業</h3>
+                    </div>
+                </section>
+                <section class="panel">
+                    <img src="img/delivery.jpg" class="back-img">
+                    <div class="panel-text">
+                        <h3>サーバ設置・環境構築</h3>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!--  CONTACT  -->
+        <section id="contact" class="site-width">
+            <h2 class="title">Contact</h2>
+            <form>
+                お名前<br>
+                <input type="text" name="name"><br>
+                電話番号<br>
+                <input type="text" name="phone"><br>
+                メールアドレス<br>
+                <input type="text" name="email"><br>
+                お問い合わせ内容<br>
+                <textarea name="comment" cols="50" rows="3"></textarea><br>
+                <input type="submit" name="submit">
+            </form>
+        </section>
+        <!--  COMPANY  -->
+        <section id="company">
+            <div class="site-width">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Company</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>会社名</th>
+                            <td>株式会社ブルーバード</td>
+                        </tr>
+                        <tr>
+                            <th>本社</th>
+                            <td>〒999-9999 東京都港区○○○○</td>
+                        </tr>
+                        <tr>
+                            <th>TEL</th>
+                            <td>99-9999-9999</td>
+                        </tr>
+                        <tr>
+                            <th>資本金</th>
+                            <td>99億円</td>
+                        </tr>
+                        <tr>
+                            <th>設立</th>
+                            <td>20XX年XX月XX日</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="ggmap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.747798533318!2d139.74324421561164!3d35.658584838820325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bbd9009ec09%3A0x481a93f0d2a409dd!2z5p2x5Lqs44K_44Ov44O8!5e0!3m2!1sja!2sjp!4v1579249031772!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer>
+            © bluebird Co., Ltd
+        </footer>
+    </body>
+
+    </html>

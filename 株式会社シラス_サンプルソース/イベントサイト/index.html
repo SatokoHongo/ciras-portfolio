@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>音楽イベントサイト</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav id="header-nav">
+            <ul>
+                <li>TOP</li>
+                <li>NEWS</li>
+                <li>ARTIST</li>
+                <li>TICKET</li>
+                <li>ACCESS</li>
+                <li>CONTACT</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="top">
+            <!--<img src="img/top.jpg">-->
+            <video src="img/top.mp4" autoplay muted loop></video>
+            <h1>TOKYO<br>
+                Sample<br>
+                Festival<br>
+                <span id="title-date">2020.02.30&nbsp;</span><span id="title-week">sun</span>
+            </h1>
+        </section>
+        <section id="sns">
+            <ul class="follow-me">
+                <li><a href="https://twitter.com/hogehoge"></a></li>
+                <li><a href="https://www.facebook.com/hogehoge"></a></li>
+                <li><a href="https:/instagram.com/hogehoge"></a></li>
+            </ul>
+        </section>
+        <h2 class="effect-fade"><span>NEWS</span></h2>
+        <section class="site-width effect-fade">
+            <ul id="news-list">
+                <li class="line-1"></li>
+                <li class="news-text"><span class="news-date">2019.12.01&nbsp;</span>FooBarBaz 出演決定！</li>
+                <li class="line-2"></li>
+                <li class="news-text"><span class="news-date">2019.11.01&nbsp;</span>会場のお忘れ物について</li>
+                <li class="line-1"></li>
+                <li class="news-text"><span class="news-date">2019.10.01&nbsp;</span>hoge社「月間ピヨピヨ」に記事が掲載されました</li>
+                <li class="line-2"></li>
+            </ul>
+            <div id=news-link><a href="index.html">MORE</a></div>
+        </section>
+
+        <h2 class="effect-fade"><span>ARTIST</span></h2>
+        <section class="site-width  effect-fade" id="artist">
+            <div class="panel-area">
+                <div class="panel">
+                    <img src="img/artist-1.jpg">
+                    <div>artistName</div>
+                </div>
+                <div class="panel">
+                    <img src="img/artist-2.jpg">
+                    <div>artistName</div>
+                </div>
+                <div class="panel">
+                    <img src="img/artist-3.jpg">
+                    <div>artistName</div>
+                </div>
+            </div>
+            <div class="panel-area">
+                <div class="panel">
+                    <img src="img/artist-4.jpg">
+                    <div>artistName</div>
+                </div>
+                <div class="panel">
+                    <img src="img/artist-5.jpg">
+                    <div>artistName</div>
+                </div>
+                <div class="panel">
+                    <img src="img/artist-6.jpg">
+                    <div>artistName</div>
+                </div>
+            </div>
+            <span>and any more!</span>
+        </section>
+
+        <h2 class="effect-fade"><span>TICKET</span></h2>
+        <section class="site-width  effect-fade">
+            <div id="ticket-info">【前 売】 ¥6,000- (税込)<br>
+                <br>
+                【チケット発売】 2020年01月01日(木) 10:00～<br>
+                <br>
+                【URL】 https://hogehoge.com
+            </div>
+            <div id="ticket-caution">※チケットは1枚につき1名様のみ有効です。<br>
+                ※6歳未満は入園・入場無料（保護者同伴に限る）。<br>
+                ※出演アーティストは都合により変更、キャンセルになる場合がございます。その際の払戻は一切いたしません。<br>
+                ※一般発売にて売り切れとなった場合は、当日券の販売はございません。
+            </div>
+        </section>
+
+        <h2 class="effect-fade"><span>ACCESS</span></h2>
+        <section class="site-width  effect-fade">
+            <div id="where">
+                CLUB XXX 渋谷<br>
+                <span>
+                    〒999-9999<br>
+                    東京都渋谷区9丁目99-99
+                </span>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.770164150717!2d139.6994471143956!3d35.658033880199724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b563b00109f%3A0x337328def1e2ab26!2z5riL6LC36aeF!5e0!3m2!1sja!2sjp!4v1580025286457!5m2!1sja!2sjp" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </section>
+
+        <h2 class="effect-fade"><span>CONTACT</span></h2>
+        <section class="site-width effect-fade">
+            <form>
+                <div>名前</div>
+                <input type="text" name="name">
+                <div>メールアドレス</div>
+                <input type="text" name="email">
+                <div>内容</div>
+                <textarea name="comment"></textarea>
+                <br>
+                <input type="submit" name="submit" value="送信">
+            </form>
+        </section>
+    </main>
+    <footer>
+        copyright (c) hogehoge all rights reserved.
+    </footer>
+</body>
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="effect.js"></script>
+
+</html>

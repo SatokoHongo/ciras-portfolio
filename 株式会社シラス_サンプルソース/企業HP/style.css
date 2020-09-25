@@ -1,0 +1,289 @@
+body {
+    color: #444;
+    margin: 0;
+    padding: 0;
+    line-height: 150%;
+    font-size: 16px;
+}
+
+#profile,
+#services,
+#contact {
+    margin-top: 80px;
+    margin-bottom: 140px;
+}
+
+.site-width {
+    width: 980px;
+    margin: 0 auto;
+}
+
+/* ヘッダー */
+header {
+    height: 60px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 1;
+    margin-top: -60px;
+}
+
+/*会社ロゴ*/
+#logo-img {
+    height: 40px;
+    float: left;
+    padding: 10px;
+    display: block;
+}
+
+/*ナビゲーション*/
+#top-nav {
+    float: right;
+    height: 60px;
+    width: 550px;
+    position: relative;
+}
+
+nav a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#top-nav ul {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    list-style: none;
+}
+
+#top-nav ul li {
+    float: left;
+}
+
+/*トップバナー*/
+#top-banner {
+    position: relative;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.colorfilter-base {
+    background-color: #f0f8ff;
+    /* カラーフィルタ効果の色を指定 */
+    display: inline-block;
+    /* (任意：インラインブロック化したい場合) */
+}
+
+#top-img {
+    width: 100%;
+    opacity: 0.7;
+    /* カラーフィルタ効果の度合いを指定(※) */
+    display: block;
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+}
+
+#message {
+    height: 100px;
+    width: 850px;
+    text-align: center;
+    font-family: 'Allura', cursive;
+    font-size: 80px;
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    margin: auto;
+    padding: 0;
+    color: rgba(255, 255, 255);
+    transform: rotate(-7deg);
+}
+
+section h2.title {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 40px;
+}
+
+/*profile*/
+#profile {
+    position: relative;
+    height: 550px;
+}
+
+#ceo-img {
+    position: absolute;
+    width: 700px;
+    display: block;
+    padding: 0 140px;
+}
+
+#ceo-message {
+    width: 40%;
+    position: absolute;
+    background-color: rgba(240, 248, 255, 0.8);
+    top: 15%;
+    left: 5%;
+    padding: 10px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    text-align: center;
+}
+
+#sign {
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 32px;
+    margin-left: 20px;
+}
+
+/*services*/
+.panel-area {
+    overflow: hidden;
+    text-align: center;
+    padding: 0 70px;
+}
+
+.panel {
+    width: 400px;
+    margin: 10px;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+
+}
+
+.back-img {
+    width: 100%;
+    height: 400px;
+    display: block;
+    filter: brightness(50%);
+}
+
+.back-img:hover {
+    filter: brightness(100%);
+}
+
+.panel-text {
+    text-align: center;
+    position: absolute;
+    background-color: #fff;
+    color: #333;
+    opacity: 0.8;
+    top: 45%;
+    width: 360px;
+    margin: 0 20px;
+
+}
+
+/* contact */
+form {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: #f6f5f5;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    border: none;
+    background: #f6f5f5;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    float: right;
+    font-size: 18px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+input[type="submit"]:hover {
+    filter: opacity(75%);
+}
+
+
+/* company*/
+#company {
+    width: 100%;
+    background-color: #393939;
+    overflow: hidden;
+    height: 400px;
+}
+
+table {
+    margin: 50px 20px;
+    width: 40%;
+    text-align: left;
+    float: left;
+}
+
+table thead th {
+    text-decoration: underline;
+}
+
+th,
+td {
+    padding 5px 0;
+    border-bottom: #fff;
+    color: #fff;
+    font-size: 14px;
+}
+
+.ggmap {
+    float: right;
+    margin: 50px 20px;
+    width: 50%;
+
+}
+
+iframe {
+    height: 300px;
+    width: ;
+}
+
+/*フッター*/
+footer {
+    font-size: 12px;
+    padding: 15px;
+    background: #333;
+    text-align: center;
+    color: #f6f5f5;
+}
+
+footer a {
+    color: #f6f5f5;
+}
